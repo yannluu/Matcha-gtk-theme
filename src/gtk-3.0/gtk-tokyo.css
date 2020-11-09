@@ -583,29 +583,29 @@ button.osd:disabled {
 button.suggested-action {
   background-clip: border-box;
   color: white;
-  background-color: #d67df1;
-  border-color: #d67df1;
+  background-color: #b699ed;
+  border-color: #b699ed;
 }
 
 button.suggested-action.flat {
   border-color: transparent;
   background-color: transparent;
   background-image: none;
-  color: #d67df1;
+  color: #b699ed;
 }
 
 button.suggested-action:hover {
   background-clip: border-box;
   color: white;
-  background-color: #dd94f3;
-  border-color: #dd94f3;
+  background-color: #c6aef1;
+  border-color: #c6aef1;
 }
 
 button.suggested-action:active, button.suggested-action:checked {
   background-clip: border-box;
   color: white;
-  background-color: #e5abf6;
-  border-color: #e5abf6;
+  background-color: #d5c4f5;
+  border-color: #d5c4f5;
 }
 
 button.suggested-action.flat:disabled {
@@ -1985,29 +1985,29 @@ headerbar .linked:not(.vertical):not(.path-bar) > entry.warning + entry.error {
 headerbar button.suggested-action {
   background-clip: border-box;
   color: white;
-  background-color: #d67df1;
-  border-color: #d67df1;
+  background-color: #b699ed;
+  border-color: #b699ed;
 }
 
 headerbar button.suggested-action.flat {
   border-color: transparent;
   background-color: transparent;
   background-image: none;
-  color: #d67df1;
+  color: #b699ed;
 }
 
 headerbar button.suggested-action:hover {
   background-clip: border-box;
   color: white;
-  background-color: #dd94f3;
-  border-color: #dd94f3;
+  background-color: #c6aef1;
+  border-color: #c6aef1;
 }
 
 headerbar button.suggested-action:active, headerbar button.suggested-action:checked {
   background-clip: border-box;
   color: white;
-  background-color: #e5abf6;
-  border-color: #e5abf6;
+  background-color: #d5c4f5;
+  border-color: #d5c4f5;
 }
 
 headerbar button.suggested-action.flat:disabled, headerbar button.suggested-action:disabled {
@@ -5859,7 +5859,7 @@ window.background > box.vertical box.horizontal > box.vertical > scrolledwindow 
 }
 
 window.background > box.vertical box.horizontal > box.vertical > scrolledwindow > viewport.frame > list row.event.activatable label.compressed-entries-label {
-  background-image: image(#d67df1);
+  background-image: image(#b699ed);
   color: #ffffff;
   font-weight: 700;
 }
@@ -9333,7 +9333,7 @@ actionbar.inline-toolbar button:last-child {
 }
 
 scale.warmth trough {
-  background-image: linear-gradient(to right, #d67df1, #db5b5b);
+  background-image: linear-gradient(to right, #b699ed, #db5b5b);
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.25);
 }
 
@@ -9485,22 +9485,22 @@ scale.warmth trough {
 #restart_button.button {
   background-clip: border-box;
   color: green;
-  background-color: #d67df1;
-  border-color: #d67df1;
+  background-color: #b699ed;
+  border-color: #b699ed;
 }
 
 #restart_button.button:hover {
   background-clip: border-box;
   color: green;
-  background-color: #e5abf6;
-  border-color: #e5abf6;
+  background-color: #d5c4f5;
+  border-color: #d5c4f5;
 }
 
 #restart_button.button:active, #restart_button.button:checked {
   background-clip: border-box;
   color: green;
-  background-color: #c74fec;
-  border-color: #c74fec;
+  background-color: #976de6;
+  border-color: #976de6;
 }
 
 #greeter_infobar {

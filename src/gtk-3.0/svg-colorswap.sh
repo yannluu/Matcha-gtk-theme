@@ -1,3 +1,5 @@
+#! /bin/bash
+
 sed -i 's/#222b2e/#21232e/g' assets-tokyo.svg
 sed -i 's/#303d41/#333041/g' assets-tokyo.svg
 sed -i 's/#abb9b6/#b5afba/g' assets-tokyo.svg
