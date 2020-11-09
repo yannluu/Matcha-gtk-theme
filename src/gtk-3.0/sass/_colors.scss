@@ -99,7 +99,7 @@ $progress_color: #db5b5b;
   $progress_color: #976de6;
   $success_color: #976de6;
   $destructive_color: #db5b5b;
-  $suggested_color: #d67df1;
+  $suggested_color: lighten($selected_bg_color, 10%);
 }
 
 $drop_target_color: #f08437;
