@@ -16,7 +16,7 @@ SRC_DIR=${REO_DIR}/src
 
 THEME_NAME=Matcha
 COLOR_VARIANTS=('' '-light' '-dark')
-THEME_VARIANTS=('-aliz' '-azul' '-sea')
+THEME_VARIANTS=('-aliz' '-azul' '-sea' '-tokyo')
 
 usage() {
   printf "%s\n" "Usage: $0 [OPTIONS...]"
@@ -282,6 +282,10 @@ while [[ $# -gt 0 ]]; do
             ;;
           sea)
             themes+=("${THEME_VARIANTS[2]}")
+            shift 1
+            ;;
+          tokyo)
+            themes+=("${THEME_VARIANTS[3]}")
             shift 1
             ;;
           -*|--*)
