@@ -17,7 +17,8 @@ if [ ! -z "${ECOLOR_VARIANTS:-}" ]; then
   IFS=', ' read -r -a _ECOLOR_VARIANTS <<< "${ECOLOR_VARIANTS:-}"
 fi
 
-_THEME_VARIANTS=('-sea' '-aliz' '-azul')
+#_THEME_VARIANTS=('-sea' '-aliz' '-azul')
+_THEME_VARIANTS=('-tokyo')
 if [ ! -z "${THEME_VARIANTS:-}" ]; then
   IFS=', ' read -r -a _THEME_VARIANTS <<< "${THEME_VARIANTS:-}"
 fi
@@ -29,16 +30,16 @@ for color in "${_COLOR_VARIANTS[@]}"; do
   done
 done
 
-for color in "${_ECOLOR_VARIANTS[@]}"; do
-  for theme in "${_THEME_VARIANTS[@]}"; do
-  sassc $SASSC_OPT src/gnome-shell/gnome-shell${color}${theme}.{scss,css}
-  echo "==> Generating the gnome-shell${color}${theme}.css..."
-  done
-done
+# for color in "${_ECOLOR_VARIANTS[@]}"; do
+#   for theme in "${_THEME_VARIANTS[@]}"; do
+#   sassc $SASSC_OPT src/gnome-shell/gnome-shell${color}${theme}.{scss,css}
+#   echo "==> Generating the gnome-shell${color}${theme}.css..."
+#   done
+# done
 
-for color in "${_ECOLOR_VARIANTS[@]}"; do
-  for theme in "${_THEME_VARIANTS[@]}"; do
-  sassc $SASSC_OPT src/cinnamon/cinnamon${color}${theme}.{scss,css}
-  echo "==> Generating the cinnamon${color}${theme}.css..."
-  done
-done
+# for color in "${_ECOLOR_VARIANTS[@]}"; do
+#   for theme in "${_THEME_VARIANTS[@]}"; do
+#   sassc $SASSC_OPT src/cinnamon/cinnamon${color}${theme}.{scss,css}
+#   echo "==> Generating the cinnamon${color}${theme}.css..."
+#   done
+# done
